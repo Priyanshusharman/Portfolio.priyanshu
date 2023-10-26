@@ -18,3 +18,5 @@ cammond-line:npm create vite@latest ./ -- --template react
 // @react-three/drei maath react-tilt react-vertical-timeline:maath is use for use mathmetical function and react-tilt use for hovering animation like on card is tilt wher is mouse is pointing
 
 add public, assets, components , and copy index.css,style.js,motion.js,constant,index.js (https://gist.github.com/adrianhajdin/b1d33c262941a7e21aad833a1cfc84b1)folder pre structure
+
+>npm install --legacy-peer-deps -D postcss autoprefixer//use to use tailwindcss in react
