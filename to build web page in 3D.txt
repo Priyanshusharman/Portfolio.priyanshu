@@ -1,0 +1,20 @@
+to build web page in 3D:
+requirment:
+`3js
+`tailwindcss
+`framer motion
+`
+
+#learning with desinging 3D portfolio:
+cammond-line:npm create vite@latest ./ -- --template react
+>npm install -D tailwindcss
+>npx tailwindcss init//initilize tailwindcss
+
+//npm install --legacy-peer-deps: use to intall older package of react like react-tilt
+
+>npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline @emailjs/browser framer-motion react-router-dom
+
+//@react-three/fiber:this commend help to write 3js command in react
+// @react-three/drei maath react-tilt react-vertical-timeline:maath is use for use mathmetical function and react-tilt use for hovering animation like on card is tilt wher is mouse is pointing
+
+add public, assets, components , and copy index.css,style.js,motion.js,constant,index.js (https://gist.github.com/adrianhajdin/b1d33c262941a7e21aad833a1cfc84b1)folder pre structure
