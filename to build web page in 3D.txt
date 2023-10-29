@@ -26,3 +26,5 @@ import { Canvas } from '@react-three/fiber'//use to  install a canvas space
 import { OrbitControls,Preload,useGLTF } from '@react-three/drei' //this  are some function use to work in canvas useGLTF is use for import canvas model in canvas 
 
 import { Tilt } from 'react-tilt'//use to make card tilt animation
+
+<motion.div> will be use where we have to use motion ;like in hero compunent, a button which to motion in up-down .
