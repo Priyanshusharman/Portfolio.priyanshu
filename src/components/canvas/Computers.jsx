@@ -27,7 +27,7 @@ const Computers = () => {
       <primitive
         object={car.scene}
         // object={computer.scene}
-        scale={ismobile ? 0.009 : 0.015}
+        scale={ismobile ? 0.005 : 0.015}
         position={[0, -2.25, 0]}
         rotation={[-0.01, -0.2, -0.1]}
       />
