@@ -27,4 +27,8 @@ import { OrbitControls,Preload,useGLTF } from '@react-three/drei' //this  are so
 
 import { Tilt } from 'react-tilt'//use to make card tilt animation
 
-<motion.div> will be use where we have to use motion ;like in hero compunent, a button which to motion in up-down .
+<motion.div> will be use where we have to use motion ;like in hero compunent, a button which to motion in up-down.
+
+
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css'; // Import the CSS file for styling

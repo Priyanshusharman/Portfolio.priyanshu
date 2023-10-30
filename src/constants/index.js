@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    logo,
 } from "../assets";
 
 export const navLinks = [
@@ -115,56 +116,56 @@ const technologies = [
 ];
 
 const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+       {
+        title: "React Native Developer(Web notepad)",
+        company_name: "self_project",
+        icon: logo,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "oct 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Constructed an online note management website with React.js, MongoDB, Node.js, and npm.",
+            "Engineered a user-friendly platform for note creation, editing, and deletion.",
+            "Enhanced digital note-taking experiences for seamless organization",
         ],
     },
+    
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Web Developer(Doormonk - A Gallery Booking Website)",
+        company_name: "self_project",
+        icon: logo,
         iconBg: "#383E56",
         date: "Jan 2022 - Jan 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Crafted a user-centric gallery booking website with HTML, CSS, and React.",
+            "Facilitated seamless interactions between barbers and their clients.",
+            "Enhanced the online booking process for gallery services",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+    title: "React.js Developer(Legalxpertise)",
+    company_name: "self_project",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "sep 2023 - continuous",
+    points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developed a comprehensive legal services platform using React.js, MongoDB, Node.js, and npm Designed and implemented a web portal connecting lawyers, arbitrators, document writers, and mediators",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+},
+    {
+        title: "Backend API",
+        company_name: "self_project",
+        icon:logo,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "june 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining api using node.js and other related technologies.",
+            "use all available packages to make security in top notch.",
+            "And connect with application",
         ],
     },
 ];
